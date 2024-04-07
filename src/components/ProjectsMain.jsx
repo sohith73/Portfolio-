@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import img1 from "../public/SpaceWebsite.png"
 import img2 from "../public/SpaceWebsite.png"
 import img3 from "../public/NextWebsite.png"
+import { Link } from "react-router-dom";
 
 const ProjectsMain = () => {
      return (
@@ -14,7 +15,25 @@ const ProjectsMain = () => {
                <motion.h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
                     My Projects
                </motion.h1>
+               <motion.div className='flex-row gap-8'>
                <motion.div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+                    <Link to='/'><ProjectCard
+                         src={img3}
+                         title="Modern Next.js Portfolio"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    /></Link>
+                    <Link to='/'><ProjectCard
+                         src={img2}
+                         title="Interactive Website Cards"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    /></Link>
+                    <Link to='/'><ProjectCard
+                         src={img1}
+                         title="Space Themed Website"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    /></Link>
+               </motion.div>
+               <motion.div className="h-full mt-10 w-full flex flex-col md:flex-row gap-10 px-10">
                     <ProjectCard
                          src={img3}
                          title="Modern Next.js Portfolio"
@@ -30,6 +49,24 @@ const ProjectsMain = () => {
                          title="Space Themed Website"
                          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     />
+               </motion.div>
+               <motion.div className="h-full mt-10 w-full flex flex-col md:flex-row gap-10 px-10">
+                    <ProjectCard
+                         src={img3}
+                         title="Modern Next.js Portfolio"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                    <ProjectCard
+                         src={img2}
+                         title="Interactive Website Cards"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                    <ProjectCard
+                         src={img1}
+                         title="Space Themed Website"
+                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+               </motion.div>
                </motion.div>
           </motion.div>
      )

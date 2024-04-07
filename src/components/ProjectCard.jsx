@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ src, title, description }) => {
      return (
-          <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+          <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] hover:border-[#4111a2] transition duration-300 ease-in border border-opacity-0 hover:border-opacity-100">
                <img
                     src={src}
                     alt={title}
