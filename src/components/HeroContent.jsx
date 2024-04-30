@@ -38,7 +38,6 @@ const HeroContent = () => {
                               </span>
                          </span>
                     </motion.div>
-
                     <motion.div
                          variants={slideInFromLeft(0.5)}
                          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
@@ -62,10 +61,10 @@ const HeroContent = () => {
                          variants={slideInFromLeft(1)}
                          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-max p-8"
                     >
-                         Discover My Creative Digital Universe
+                         <motion.span variants={slideInFromLeft(0.8)} class="hidden sm:hidden lg:inline md:inline">Discover My Creative Digital Universe</motion.span>
+                         <motion.span variants={slideInFromLeft(0.8)} class="sm:hidden lg:inline">Projects!</motion.span>
                     </motion.a></Link>
                </div>
-
                <motion.div
                     variants={slideInFromRight(0.8)}
                     className="w-full h-full flex justify-center items-center"
