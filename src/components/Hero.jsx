@@ -9,7 +9,6 @@ const Hero = () => {
                <HeroContent />
                <Skills />
                <Footer />
-               
           </div>
      )
 }

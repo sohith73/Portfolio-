@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pages from './Pajes';
 import Projects from './components/Projects';
 import Alert from './components/Alert';
+import About from './pages/About';
 
 function App() {
      return (
@@ -16,6 +17,7 @@ function App() {
                          <Routes>
                               <Route path='/' element={<Pages />} />
                               <Route path='/projects' element={<Projects />} />
+                              <Route path='/xyz' element={<About />} />
                          </Routes>
                     </BrowserRouter>
                </div>

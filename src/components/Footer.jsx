@@ -3,8 +3,11 @@ import {
      RxDiscordLogo,
      RxGithubLogo,
 } from "react-icons/rx";
-
+import { CiLinkedin } from "react-icons/ci";
+import { ImTwitter } from "react-icons/im";
 import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
      return (
@@ -17,37 +20,36 @@ const Footer = () => {
                               <div className="font-bold text-[16px]">Community</div>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                                    <FaYoutube />
-                                   <span className="text-[15px] ml-[6px]">Youtube</span>
+                                   <Link to='https://www.youtube.com/channel/UCeJjuSgqLi3PHF3arQbtniw'><span className="text-[15px] ml-[6px]">Youtube</span></Link>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                                    <RxGithubLogo />
-                                   <span className="text-[15px] ml-[6px]">Github</span>
+                                   <Link to="https://github.com/sohith73"><span className="text-[15px] ml-[6px]">Github</span></Link>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                                    <RxDiscordLogo />
-                                   <span className="text-[15px] ml-[6px]">Discord</span>
+                                   <Link to='https://discord.gg/6rmwgeWjsx'><span className="text-[15px] ml-[6px]">Discord</span></Link>
                               </p>
                          </div>
                          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                               <div className="font-bold text-[16px]">Social Media</div>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                   <FaYoutube />
+                                   <CiLinkedin height={29}/>
+                                   <Link to="https://www.linkedin.com/in/sohith-bandreddi/"><span className="text-[15px] ml-[6px]">Linkedin</span></Link>
+                              </p>
+                              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                   <FaInstagram />
                                    <span className="text-[15px] ml-[6px]">Instagram</span>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                   <RxGithubLogo />
+                                   <ImTwitter />
                                    <span className="text-[15px] ml-[6px]">Twitter</span>
-                              </p>
-                              <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                   <RxDiscordLogo />
-                                   <span className="text-[15px] ml-[6px]">Linkedin</span>
                               </p>
                          </div>
                          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                               <div className="font-bold text-[16px]">About</div>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-
-                                   <span className="text-[15px] ml-[6px]">About me</span>
+                                   <Link to='/xyz'><span className="text-[15px] ml-[6px]">About me</span></Link>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
 

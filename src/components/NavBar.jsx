@@ -28,11 +28,10 @@ const Navbar = () => {
                               </Link>
                          </div>
                     </div>
-
                     <div className="flex flex-row gap-5">
-                         <img src="https://www.svgrepo.com/show/353655/discord-icon.svg" width={24} height={24} alt="img1" />
-                         <img src={myImage} width={24} height={24} alt="img1" />
-                         <img src={fb} width={24} height={24} alt="img1" />
+                         <Link to='https://www.linkedin.com/in/sohith-bandreddi/'><img src="https://www.svgrepo.com/show/448234/linkedin.svg" width={28} height={28} alt="img1" /></Link>
+                         <Link to='https://github.com/sohith73'><img src="https://www.svgrepo.com/show/475654/github-color.svg" width={28} height={28} alt="img1" /></Link>
+                         <Link to='https://discord.gg/6rmwgeWjsx'><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" width={25} height={25} alt="img1" /></Link>
                     </div>
                </div>
                <style jsx>{`
