@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import github from "../public/github-color.svg"
 
 const Navbar = () => {
      return (
@@ -26,10 +27,11 @@ const Navbar = () => {
                               </Link>
                          </div>
                     </div>
-                    <div className="flex flex-row gap-5">
-                         <Link to='https://www.linkedin.com/in/sohith-bandreddi/'><img src="https://www.svgrepo.com/show/448234/linkedin.svg" width={28} height={28} alt="img1" /></Link>
-                         <Link to='https://github.com/sohith73'><img src="https://www.svgrepo.com/show/475654/github-color.svg" width={28} height={28} alt="img1" /></Link>
-                         <Link to='https://discord.gg/6rmwgeWjsx'><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" width={25} height={25} alt="img1" /></Link>
+                    <div className="flex flex-row gap-0 md:gap-5">
+                         <Link to='https://www.linkedin.com/in/sohith-bandreddi/'><img src="https://www.svgrepo.com/show/448234/linkedin.svg" width={28} height={28} alt="LinkedIn Logo" /></Link>
+                         <Link to='https://github.com/sohith73'><img src={github} width={28} height={28} className="hidden md:block" alt="img1" /></Link>
+                         {/* <Link to='https://discord.gg/6rmwgeWjsx'><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" width={25} height={25} alt="img1" /></Link> */}
+                         <Link to='https://discord.gg/6rmwgeWjsx'><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" className="hidden md:block w-6 h-6 md:w-7 md:h-7" alt="Discord Logo" /></Link>
                     </div>
                </div>
                <style jsx>{`
