@@ -1,9 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import { motion } from "framer-motion";
-import img1 from "../public/SpaceWebsite.png"
-import img2 from "../public/SpaceWebsite.png"
-import img3 from "../public/NextWebsite.png"
 import { Link } from "react-router-dom";
 
 const ProjectsMain = () => {

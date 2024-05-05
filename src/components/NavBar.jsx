@@ -1,6 +1,4 @@
 import React from "react";
-import myImage from '../public/instagram.svg';
-import fb from '../public/facebook.svg'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -17,9 +15,9 @@ const Navbar = () => {
                     </a>
                     <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
                          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 z-50">
-                              <a href="#about-me" className="cursor-pointer hover:cursor-grabbing">
+                              <Link to='/xyz' className="cursor-pointer hover:cursor-grabbing">
                                    About me
-                              </a>
+                              </Link>
                               <a href="#skills" className="cursor-pointer">
                                    Skills
                               </a>
