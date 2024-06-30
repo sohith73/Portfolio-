@@ -2,10 +2,11 @@ import React from 'react'
 import { lazy, Suspense } from 'react'
 
 const CR = () => {
-     const Recomendation = lazy(()=> import('./ProjectScreen.jsx'))
+     const Recommendation = lazy(()=> import('./ProjectScreen.jsx'))
+     document.title = `Course recommendation`;
      return (
           <Suspense fallback={<div>Loading./......</div>}>
-               {<Recomendation />}
+               {<Recommendation />}
           </Suspense>
      )
 }

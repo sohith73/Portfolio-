@@ -1,15 +1,14 @@
 import React from 'react'
-
 import { lazy, Suspense } from 'react'
 
-const Tic = () => {
-     const TT = lazy(()=> import('./ProjectScreen.jsx'))
-     document.title = `Tic Tac Toe using min max`;
+const Flappy = () => {
+     const C = lazy(()=> import('./ProjectScreen.jsx'))
+     document.title = `Flappy Bird by bsc`;
      return (
           <Suspense fallback={<div>Loading./......</div>}>
-               {<TT />}
+               {<C />}
           </Suspense>
      )
 }
 
-export default Tic
+export default Flappy
