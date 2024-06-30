@@ -9,7 +9,8 @@ const Projects = () => {
                className={`bg-[#030014] overflow-y-scroll overflow-x-hidden`}
           ><div className='bg-[#030014]'>
                     <StopBackground />
-                    <NavProject />
+                    {/* <StarsCanvas /> */}
+                    <NavProject title={'My Projects'} />
                     <ProjectHeros />
                     
                </div>

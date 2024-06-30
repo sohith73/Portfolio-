@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+     const email = "sohith73@gmail.com";
      return (
           <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]  z-40 ">
                <div className="w-full flex flex-col items-center justify-center m-auto">
@@ -34,7 +35,7 @@ const Footer = () => {
                          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                               <div className="font-bold text-[16px]">Social Media</div>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                   <CiLinkedin height={29}/>
+                                   <CiLinkedin height={29} />
                                    <Link to="https://www.linkedin.com/in/sohith-bandreddi/"><span className="text-[15px] ml-[6px]">Linkedin</span></Link>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
@@ -52,8 +53,7 @@ const Footer = () => {
                                    <Link to='/xyz'><span className="text-[15px] ml-[6px]">About me</span></Link>
                               </p>
                               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-
-                                   <span className="text-[15px] ml-[6px]">sohith73@gmail.com</span>
+                                   <a href={`mailto:${email}`} style={styles.emailLink}>{email}</a>
                               </p>
                          </div>
                     </div>
@@ -65,5 +65,11 @@ const Footer = () => {
           </div>
      )
 }
+const styles = {
+     emailLink: {
+          color: '#0000EE',
+          textDecoration: 'none',
+     }
+};
 
 export default Footer

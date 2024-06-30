@@ -7,6 +7,7 @@ import {
 } from "../utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import image from '../public/mainIconsdark.svg'
+import img from '../images/IMG_20240524_092307.png'
 import { Link } from 'react-router-dom';
 
 const HeroContent = () => {
@@ -72,8 +73,9 @@ const HeroContent = () => {
                     <img
                          src={image}
                          alt="work icons"
-                         height={650}
-                         width={650}
+                         height={550}
+                         width={550}
+                         className='opacity-50'
                     />
                </motion.div>
           </motion.div>
