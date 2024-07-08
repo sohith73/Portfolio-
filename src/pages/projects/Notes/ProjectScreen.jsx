@@ -48,40 +48,34 @@ const ProjectScreen = () => {
                                              className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white"
                                         >
                                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                             BSC ka notes
+                                                  BSC ka notes
                                              </span>
                                         </motion.div>
                                         <motion.p
                                              variants={slideInFromLeft(0.8)}
                                              className="text-base md:text-lg text-gray-400 my-5"
                                         >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
-                                        <motion.p
-                                             variants={slideInFromLeft(0.8)}
-                                             className="text-base md:text-lg text-gray-400 my-5"
-                                        >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
+                                             No more lost sticky notes! My note-taking app lets you ditch the paper and keep your ideas organized digitally.  Easily jot down thoughts, to-do lists, or anything else on your mind.  Edit notes on the go, and access them from any device. It's like having a super-powered notebook that fits in your pocket!
                                         </motion.p>
                                    </div>
                                    <div className="w-full md:w-1/2">
                                         <motion.div className="z-50 text-blue-50 font-semibold">
                                              <motion.p className="text-sm md:text-base"
                                                   variants={slideInFromRight(1.0)}>
-                                                  Excited to share my journey with you all! Introducing my first CNN project,
-                                                  "Where am I?" developed during my 3rd year of B.Tech in early 2023.
-                                                  This project aims to help users identify their location using CNNs with
-                                                  Python, Keras, Flask, and TensorFlow. Utilizing a dataset of over 3000+
-                                                  images of buildings, forests, glaciers, mountains, seas, and streets from
-                                                  the Intel image dataset, we tackled multi-class classification. The process
-                                                  involved importing modules, converting images to numpy arrays, performing 
-                                                  training-testing splits, and normalization. After training the model with 
-                                                  nearly 700 epochs and a batch size of 128, we achieved an impressive 92% 
-                                                  accuracy. The future scope includes potential applications in classifying 
-                                                  satellite and drone images and organizing large repositories like Google's. 
-                                                  This project was a deep dive into deep learning, leading to accurate 
-                                                  predictions and paving the way for future innovations. Stay tuned for more 
-                                                  updates and exciting adventures in deep learning!
+                                                  <ul >This is my first full stack project i developed in android and web</ul>
+                                                  <li>I always wanted a notes application of my own and i created this one</li>
+                                                  <li>we can take notes and every notes you write is encrypted and stored in DB and you can view it</li>
+                                                  <ul>The X(BSC) factor:</ul>
+                                                  <li>I usually store important information in notes so the data protection is very important for me </li>
+                                                  <li>so I used Cryptography class knowledge and used encryption and decryption </li>
+                                                  <ul>Project Aim:</ul>
+                                                  <li>Helps users To take notes any where and access form all over the world</li>
+                                                  <ul>Future Scope:</ul>
+                                                  <li>Nothing specific just i created this and felt very happy to see how data is flowing form backend to front end</li>
+                                                  <ul>Conclusion:</ul>
+                                                  <li>This project was an in-depth exploration into my development skills </li>
+                                                  <li>nothing much to say about this project</li>
+                                                  
                                              </motion.p>
                                         </motion.div>
                                    </div>

@@ -48,40 +48,35 @@ const ProjectScreen = () => {
                                              className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white"
                                         >
                                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                             SkillScript
+                                                  SkillScript
                                              </span>
                                         </motion.div>
                                         <motion.p
                                              variants={slideInFromLeft(0.8)}
                                              className="text-base md:text-lg text-gray-400 my-5"
                                         >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
-                                        <motion.p
-                                             variants={slideInFromLeft(0.8)}
-                                             className="text-base md:text-lg text-gray-400 my-5"
-                                        >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
+                                             Level up your learning with my all-in-one education app!  Just like Udemy, you'll find tons of courses to explore. But here's the cool part - the app uses smarts to suggest courses you'll love and even adjusts learning based on your progress.  Built with user-friendly features, it's like having a personalized learning buddy in your pocket, helping you reach your goals faster!
                                         </motion.p>
                                    </div>
                                    <div className="w-full md:w-1/2">
                                         <motion.div className="z-50 text-blue-50 font-semibold">
                                              <motion.p className="text-sm md:text-base"
                                                   variants={slideInFromRight(1.0)}>
-                                                  Excited to share my journey with you all! Introducing my first CNN project,
-                                                  "Where am I?" developed during my 3rd year of B.Tech in early 2023.
-                                                  This project aims to help users identify their location using CNNs with
-                                                  Python, Keras, Flask, and TensorFlow. Utilizing a dataset of over 3000+
-                                                  images of buildings, forests, glaciers, mountains, seas, and streets from
-                                                  the Intel image dataset, we tackled multi-class classification. The process
-                                                  involved importing modules, converting images to numpy arrays, performing 
-                                                  training-testing splits, and normalization. After training the model with 
-                                                  nearly 700 epochs and a batch size of 128, we achieved an impressive 92% 
-                                                  accuracy. The future scope includes potential applications in classifying 
-                                                  satellite and drone images and organizing large repositories like Google's. 
-                                                  This project was a deep dive into deep learning, leading to accurate 
-                                                  predictions and paving the way for future innovations. Stay tuned for more 
-                                                  updates and exciting adventures in deep learning!
+                                                  <ul >Skill script application : </ul>
+                                                  <li>full stack application </li>
+                                                  <li>very challenge project and interesting one implemented all features which are need for a course/education platform.</li>
+                                                  <ul>The X(BSC) factor:</ul>
+                                                  <li>Micro service architecture</li>
+                                                  <li>Python servers for ML models</li>
+                                                  <ul>Project Aim:</ul>
+                                                  <li>TO implement a good UI for this ed TEch platform</li>
+                                                  <li>Implementing ML models and seamless integration with Frontend </li>
+                                                  <ul>Future Scope:</ul>
+                                                  <li>we cam make it as a start up as an edTech platform</li>
+                                                  <li>each ml model is a separate scope</li>
+                                                  <ul>Conclusion:</ul>
+                                                  <li>This project was build with the power of python, java and javascript.</li>
+                                                  <li>and my 1st very big project and i like this very much and nothing to say  </li>
                                              </motion.p>
                                         </motion.div>
                                    </div>

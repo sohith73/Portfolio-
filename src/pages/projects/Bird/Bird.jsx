@@ -12,3 +12,4 @@ const Bird = () => {
 }
 
 export default Bird
+//{<div>Loading./......</div>}

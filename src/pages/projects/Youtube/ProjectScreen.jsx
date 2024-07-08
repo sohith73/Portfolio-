@@ -48,40 +48,34 @@ const ProjectScreen = () => {
                                              className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white"
                                         >
                                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                             YOUTUBE
+                                                  YOUTUBE
                                              </span>
                                         </motion.div>
                                         <motion.p
                                              variants={slideInFromLeft(0.8)}
                                              className="text-base md:text-lg text-gray-400 my-5"
                                         >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
-                                        <motion.p
-                                             variants={slideInFromLeft(0.8)}
-                                             className="text-base md:text-lg text-gray-400 my-5"
-                                        >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
+                                             Watch videos, chat with friends, all in one place! My app lets you enjoy your favorite videos with live chat, so you can laugh and talk together. Plus, searching is super fast - no more waiting for results! It's like your own mini video party, always easy to use.                                        </motion.p>
                                    </div>
                                    <div className="w-full md:w-1/2">
                                         <motion.div className="z-50 text-blue-50 font-semibold">
                                              <motion.p className="text-sm md:text-base"
                                                   variants={slideInFromRight(1.0)}>
-                                                  Excited to share my journey with you all! Introducing my first CNN project,
-                                                  "Where am I?" developed during my 3rd year of B.Tech in early 2023.
-                                                  This project aims to help users identify their location using CNNs with
-                                                  Python, Keras, Flask, and TensorFlow. Utilizing a dataset of over 3000+
-                                                  images of buildings, forests, glaciers, mountains, seas, and streets from
-                                                  the Intel image dataset, we tackled multi-class classification. The process
-                                                  involved importing modules, converting images to numpy arrays, performing 
-                                                  training-testing splits, and normalization. After training the model with 
-                                                  nearly 700 epochs and a batch size of 128, we achieved an impressive 92% 
-                                                  accuracy. The future scope includes potential applications in classifying 
-                                                  satellite and drone images and organizing large repositories like Google's. 
-                                                  This project was a deep dive into deep learning, leading to accurate 
-                                                  predictions and paving the way for future innovations. Stay tuned for more 
-                                                  updates and exciting adventures in deep learning!
+                                                  <ul >Working and understanding you-tubes Api and reading documentation </ul>
+                                                  <li>I developed this application like i wanted youtube to be</li>
+                                                  <li>and it is ADD's free 😅</li>
+                                                  <ul>The X(BSC) factor:</ul>
+                                                  <li>You can now live chat in any video and increase the user experience </li>
+                                                  <ul>New things:</ul>
+                                                  <li>web sockets for real time communication</li>
+                                                  <li>I used tailwind with react for designing this front end not an impressive one but it is ok </li>
+                                                  <li>Implemented System designing concepts like Debouncing and lazy loading and many little more </li>
+                                                  <ul>Future Scope:</ul>
+                                                  <li>Cna increase users watching experience a lot and helps the platform to sustain </li>
+                                                  <ul>Conclusion:</ul>
+                                                  <li>This project was an in-depth exploration into youtubes api.</li>
+                                                  <li>The scope of this project is high and really useful and learned how web sockets works  </li>
+                                                  <li>Sets the stage for future innovations in youtube .</li>
                                              </motion.p>
                                         </motion.div>
                                    </div>

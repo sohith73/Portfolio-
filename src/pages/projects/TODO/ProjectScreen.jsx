@@ -48,40 +48,37 @@ const ProjectScreen = () => {
                                              className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white"
                                         >
                                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                             TODO
+                                                  TODO
                                              </span>
                                         </motion.div>
                                         <motion.p
                                              variants={slideInFromLeft(0.8)}
                                              className="text-base md:text-lg text-gray-400 my-5"
                                         >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
+                                             Ditch the forgotten to-do lists and scattered sticky notes! My brand new app lets you manage your tasks with ease, available on both web and Android.  Creating, checking off, and keeping track of your to-dos becomes a breeze, no matter where you are.  This user-friendly app keeps your life organized and on track, acting like a digital pocket notebook for all your tasks, big or small.
                                         </motion.p>
-                                        <motion.p
-                                             variants={slideInFromLeft(0.8)}
-                                             className="text-base md:text-lg text-gray-400 my-5"
-                                        >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
+
                                    </div>
                                    <div className="w-full md:w-1/2">
                                         <motion.div className="z-50 text-blue-50 font-semibold">
                                              <motion.p className="text-sm md:text-base"
                                                   variants={slideInFromRight(1.0)}>
-                                                  Excited to share my journey with you all! Introducing my first CNN project,
-                                                  "Where am I?" developed during my 3rd year of B.Tech in early 2023.
-                                                  This project aims to help users identify their location using CNNs with
-                                                  Python, Keras, Flask, and TensorFlow. Utilizing a dataset of over 3000+
-                                                  images of buildings, forests, glaciers, mountains, seas, and streets from
-                                                  the Intel image dataset, we tackled multi-class classification. The process
-                                                  involved importing modules, converting images to numpy arrays, performing 
-                                                  training-testing splits, and normalization. After training the model with 
-                                                  nearly 700 epochs and a batch size of 128, we achieved an impressive 92% 
-                                                  accuracy. The future scope includes potential applications in classifying 
-                                                  satellite and drone images and organizing large repositories like Google's. 
-                                                  This project was a deep dive into deep learning, leading to accurate 
-                                                  predictions and paving the way for future innovations. Stay tuned for more 
-                                                  updates and exciting adventures in deep learning!
+                                                  <ul >My first cross platform application </ul>
+                                                  <li>"TODO" which is in both web and android application.</li>
+                                                  <li>same database and same tech stack.</li>
+                                                  <ul>The X(BSC) factor:</ul>
+                                                  <li>Amazing looking UI and UX </li>
+                                                  <li>You can even add birthdays to it so you don't remember them </li>
+                                                  <ul>Project Aim:</ul>
+                                                  <li>TO create a fully functional todo list application which is accessible in both app and web form .</li>
+                                                  <li>costume events too and email remainders</li>
+                                                  <ul>Future Scope:</ul>
+                                                  <li>Helpful in productivity</li>
+                                                  <li>Can help organize to observe their employees </li>
+                                                  <ul>Conclusion:</ul>
+                                                  <li>This project was an in-depth of api's.</li>
+                                                  <li>React native and its easy to use components.</li>
+                                                  <li>helps to complete the task soon and remand the tasks.</li>
                                              </motion.p>
                                         </motion.div>
                                    </div>

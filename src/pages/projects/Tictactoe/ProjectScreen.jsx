@@ -48,40 +48,34 @@ const ProjectScreen = () => {
                                              className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white"
                                         >
                                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                                             TIC TAC TOE
+                                                  TIC TAC TOE
                                              </span>
                                         </motion.div>
                                         <motion.p
                                              variants={slideInFromLeft(0.8)}
                                              className="text-base md:text-lg text-gray-400 my-5"
                                         >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
-                                        </motion.p>
-                                        <motion.p
-                                             variants={slideInFromLeft(0.8)}
-                                             className="text-base md:text-lg text-gray-400 my-5"
-                                        >
-                                             I&apos;m a tech innovator, crafting tomorrow's digital realms. Specializing in full stack web, React Native, Android, and AI development for pioneering solutions.
+                                             Ready for a Tic Tac Toe challenge? My Python app brings the classic game to life with a twist - a super smart AI opponent!  Play against the computer and see if you can outsmart it.  This fun and user-friendly app uses clever tactics to keep you on your toes. So grab a friend or test your skills solo - Tic Tac Toe fun awaits!
                                         </motion.p>
                                    </div>
                                    <div className="w-full md:w-1/2">
                                         <motion.div className="z-50 text-blue-50 font-semibold">
                                              <motion.p className="text-sm md:text-base"
                                                   variants={slideInFromRight(1.0)}>
-                                                  Excited to share my journey with you all! Introducing my first CNN project,
-                                                  "Where am I?" developed during my 3rd year of B.Tech in early 2023.
-                                                  This project aims to help users identify their location using CNNs with
-                                                  Python, Keras, Flask, and TensorFlow. Utilizing a dataset of over 3000+
-                                                  images of buildings, forests, glaciers, mountains, seas, and streets from
-                                                  the Intel image dataset, we tackled multi-class classification. The process
-                                                  involved importing modules, converting images to numpy arrays, performing 
-                                                  training-testing splits, and normalization. After training the model with 
-                                                  nearly 700 epochs and a batch size of 128, we achieved an impressive 92% 
-                                                  accuracy. The future scope includes potential applications in classifying 
-                                                  satellite and drone images and organizing large repositories like Google's. 
-                                                  This project was a deep dive into deep learning, leading to accurate 
-                                                  predictions and paving the way for future innovations. Stay tuned for more 
-                                                  updates and exciting adventures in deep learning!
+                                                  <ul >My TIC TAC TOE application : </ul>
+                                                  <li>python based Gui application </li>
+                                                  <li>very challenge game i played in childhood and i learned a power full algo in classes.</li>
+                                                  <ul>The X(BSC) factor:</ul>
+                                                  <li>MIN MAX algorithm with GUI  </li>
+                                                  <ul>Project Aim:</ul>
+                                                  <li>TO create a fully functional TIC TAC TOE game with a gui.</li>
+                                                  <li>Very hard to play</li>
+                                                  <ul>Future Scope:</ul>
+                                                  <li>MAximum utilization of min max algo for more games</li>
+                                                  <li>A game to play when free time.</li>
+                                                  <ul>Conclusion:</ul>
+                                                  <li>This project was build in python's GUI</li>
+                                                  <li>power of min max algo </li>
                                              </motion.p>
                                         </motion.div>
                                    </div>

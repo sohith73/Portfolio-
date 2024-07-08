@@ -72,7 +72,6 @@ const ProjectScreen = () => {
                                                   <li>all format images are supported. "So you don't need to worry when you lost the way"</li>
                                                   <ul>Project Aim:</ul>
                                                   <li>Helps users identify their location using Convolutional Neural Networks (CNNs).</li>
-                                                  <li>Built with Python, Keras, Flask, and TensorFlow.</li>
                                                   <li>To identify where are you using the image you gave it.</li>
                                                   <ul>Dataset:</ul>
                                                   <li>Used over6000 images from the Intel image dataset.</li>
@@ -86,12 +85,11 @@ const ProjectScreen = () => {
                                                   <li>Achieved an accuracy of 95%.</li>
                                                   <ul>Future Scope:</ul>
                                                   <li>Potential applications in classifying satellite and drone images.</li>
-                                                  <li>Can help organize large image repositories like Google's.</li>
+                                                  <li>Can help organize large image repositories.</li>
                                                   <ul>Conclusion:</ul>
                                                   <li>This project was an in-depth exploration into deep learning.</li>
                                                   <li>Resulted in accurate predictions.</li>
                                                   <li>Sets the stage for future innovations in the field.</li>
-                                                  <li>Stay tuned for more updates and exciting developments!</li>
                                              </motion.p>
                                         </motion.div>
                                    </div>
