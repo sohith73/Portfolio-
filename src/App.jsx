@@ -25,7 +25,7 @@ import Discord from './pages/projects/Discord/Discord';
 import Blog from './pages/projects/Blog/Blog';
 import Bird from './pages/projects/Bird/Bird';
 import Notes from './pages/projects/Notes/Notes';
-
+import PageOp from './pages/PageOp';
 
 function App() {
      return (
@@ -62,6 +62,7 @@ function App() {
                                    <Route path="/19" element={<Blog />} />
                                    <Route path="/20" element={<Bird />} />
                                    <Route path="/21" element={<Notes />} />
+                                   <Route path="/22" element={<PageOp />} />
                                    {/* <Route path='/1' element={<ProjectScreen />} /> */}
                               </Routes>
                          </Suspense>

@@ -36,7 +36,7 @@ const ProjectScreen = () => {
                                              <iframe
                                                   width="100%"
                                                   height="315"
-                                                  src="https://www.youtube.com/embed/HtAkUk9atlM?si=zfMip9lKheb4u2gr?autoplay=1"
+                                                  src="https://www.youtube.com/embed/uhkvhduo9Gc?si=DBQ9bVVsIEXuYfZ8?autoplay=1"
                                                   title="BSC's player "
                                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; autoplay"
                                                   referrerPolicy="strict-origin-when-cross-origin"

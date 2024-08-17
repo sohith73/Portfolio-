@@ -182,12 +182,6 @@ const Skills = () => {
                height: 70,
           },
           {
-               skill_name: "Prisma",
-               Image:prisma,
-               width: 70,
-               height: 70,
-          },
-          {
                skill_name: "Graphql",
                Image: Graph,
                width: 80,
@@ -239,12 +233,6 @@ const Skills = () => {
                height: 80,
           },
           {
-               skill_name: "Tauri",
-               Image: Tauri,
-               width: 70,
-               height: 70,
-          },
-          {
                skill_name: "Docker",
                Image: Docker,
                width: 70,
@@ -265,12 +253,6 @@ const Skills = () => {
                height: 85,
           },
           
-          {
-               skill_name: "Adobe",
-               Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Adobe_Illustrator_Icon_%28CS6%29.svg/768px-Adobe_Illustrator_Icon_%28CS6%29.svg.png?20200625113839",
-               width: 70,
-               height: 70,
-          },
      ]
      return (
           <section

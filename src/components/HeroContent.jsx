@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { motion } from "framer-motion";
 import {
      slideInFromLeft,
@@ -6,9 +6,15 @@ import {
      slideInFromTop,
 } from "../utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import image from '../public/mainIconsdark.svg'
-import img from '../images/IMG_20240524_092307.png'
 import { Link } from 'react-router-dom';
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls ,Html } from '@react-three/drei'
+import { Globe } from './Globe';
+const Loader = () => (
+     <Html center>
+          <div>Loading...</div>
+     </Html>
+);
 
 const HeroContent = () => {
      return (
@@ -32,10 +38,10 @@ const HeroContent = () => {
                          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[1000px] w-auto h-auto"
                     >
                          <span>
-                              I am 
+                              I am
                               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                    {" "}
-                                   SOHITH BANDREDDI  {" "}
+                                   SOHITH <span className=''>BANDREDDI</span>   {" "}
                               </span>
                          </span>
                     </motion.div>
@@ -44,7 +50,7 @@ const HeroContent = () => {
                          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
                     >
                          <span>
-                         Innovating Tomorrow's 
+                              Innovating Tomorrow's
                               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                    {" "}
                                    Digital{" "}
@@ -70,13 +76,16 @@ const HeroContent = () => {
                     variants={slideInFromRight(0.8)}
                     className="w-full h-full flex justify-center items-center"
                >
-                    <img
-                         src={image}
-                         alt="work icons"
-                         height={550}
-                         width={550}
-                         className='opacity-50'
-                    />
+                    <motion.div className='text-orange-50 z-50 w-[70%] h-[400px] mt-4'>
+                         <Canvas className=' h-20'>
+                              <Suspense fallback={<Loader />}>
+                                   <OrbitControls enableZoom={false} />
+                                   <ambientLight intensity={0.3333} />
+                                   <directionalLight intensity={1} position={[-2, 5, 2]} />
+                                   <Globe />
+                              </Suspense>
+                         </Canvas>
+                    </motion.div>
                </motion.div>
           </motion.div>
      )
